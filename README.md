@@ -8,10 +8,20 @@ npm: 3.10.3
 
 ## How to run this project
 
-Clone this project 
+Clone this project.
+
+
 `cd Spotify`
+
+
 `npm install`
+
+
 Bootstrap-sass added in the `angular-cli.json`
+
+
 so you have to just `npm install bootstrap-sass`
+
+
 then 
 `ng serve`  
