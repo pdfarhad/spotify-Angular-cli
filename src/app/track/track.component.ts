@@ -28,21 +28,7 @@ import {SpotifyService} from '../shared/spotify.service';
 // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
 @Component({
   selector: 'theTrack',
-  template: `
-  <div *ngIf="track">
-    <h1>{{ track.name }}</h1>
-
-    <p>
-      <img src="{{ track.album.images[1].url }}">
-    </p>
-
-    <p>
-      <audio controls src="{{ track.preview_url }}"></audio>
-    </p>
-
-    <p><a href (click)="back()">Back</a></p>
-  </div>
-  `
+  templateUrl:'track.component.html'
 })
 export class TrackComponent implements OnInit {
   id: string;
